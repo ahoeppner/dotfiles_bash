@@ -96,6 +96,10 @@ set t_vb=
 set t_ut=
 set tm=500
 
+" Enable line numbers and relative line numbers
+set number
+set relativenumber
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

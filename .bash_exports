@@ -1,4 +1,6 @@
 export TERM=xterm-256color
 export LESS='-R'
 export EDITOR=/usr/bin/vim
+
+# Path stuff
 export PATH='${HOME}/bin:${PATH}'

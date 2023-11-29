@@ -119,6 +119,25 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# More aliases and exports.
+# Checks to see if there are any additional local alias or export files
+# and will include those as well. I do this so I can leave the standard
+# versions alone and have them change only based on the linux or osx varients.
+#
+# Array of files to check for and include
+files=("more_exports" "more_aliases")
+
+# Loop through each file in the array
+for file in "${files[@]}"; do
+    filepath=~/.${file}
+
+    # Check if the file exists in the home directory
+    if [ -f "$filepath" ]; then
+        # Source the file
+        . "$filepath"
+    fi
+done
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
