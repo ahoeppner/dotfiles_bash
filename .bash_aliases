@@ -4,7 +4,6 @@ alias less='less -R'
 alias diff='colordiff'
 alias dc='cd'
 alias glog='git log --oneline --graph --color --all --decorate'
-alias whatsup='sudo apt update && apt list --upgradable'
 alias grep="grep --text --color"
 alias c=clear
 alias cls='clear && ls'
