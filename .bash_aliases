@@ -8,6 +8,7 @@ alias grep="grep --text --color"
 alias c=clear
 alias cls='clear && ls'
 alias l.="ls -d .*"
+alias lla='ls -la'
 alias mkdir='mkdir -pv'
 alias mv='mv -i'
 alias cp='cp -i'
