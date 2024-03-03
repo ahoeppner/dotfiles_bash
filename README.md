@@ -2,9 +2,9 @@
 ### Download and change folder
 ```
 cd ~
-git clone https://github.com/ahoeppner/dotfiles.git
+git clone https://github.com/ahoeppner/dotfiles_bash.git
 
-cd dotfiles
+cd dotfiles_bash
 ```
 ### Run install (Linux only - does not work on OSX)
 ```
