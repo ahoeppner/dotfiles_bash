@@ -125,7 +125,7 @@ fi
 # versions alone and have them change only based on the linux or osx varients.
 #
 # Array of files to check for and include
-files=("more_exports" "more_aliases")
+files=("bash_exports" "bash_aliases")
 
 # Loop through each file in the array
 for file in "${files[@]}"; do
